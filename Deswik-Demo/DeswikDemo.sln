@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeswikDemo", "DeswikDemo\DeswikDemo.csproj", "{36F76F09-7718-4FAE-A85F-6E53EAC90EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{31E77A03-AEFE-4716-A11B-4EA92819EDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeswickConsole", "DeswickConsole\DeswickConsole.csproj", "{FD0B80C1-6F77-4D28-8880-51D5A659086B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F76F09-7718-4FAE-A85F-6E53EAC90EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F76F09-7718-4FAE-A85F-6E53EAC90EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F76F09-7718-4FAE-A85F-6E53EAC90EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F76F09-7718-4FAE-A85F-6E53EAC90EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E77A03-AEFE-4716-A11B-4EA92819EDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E77A03-AEFE-4716-A11B-4EA92819EDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E77A03-AEFE-4716-A11B-4EA92819EDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E77A03-AEFE-4716-A11B-4EA92819EDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0B80C1-6F77-4D28-8880-51D5A659086B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0B80C1-6F77-4D28-8880-51D5A659086B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0B80C1-6F77-4D28-8880-51D5A659086B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0B80C1-6F77-4D28-8880-51D5A659086B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
