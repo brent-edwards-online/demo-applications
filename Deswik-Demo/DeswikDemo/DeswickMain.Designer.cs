@@ -29,31 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DeswickMain));
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgRecipe = new System.Windows.Forms.DataGridView();
             this.txtRecipeName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAddRecipe = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnSaveRecipe = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgRecipe)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgRecipe
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(227, 150);
-            this.dataGridView1.TabIndex = 0;
+            this.dgRecipe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgRecipe.Location = new System.Drawing.Point(13, 12);
+            this.dgRecipe.Name = "dgRecipe";
+            this.dgRecipe.Size = new System.Drawing.Size(573, 150);
+            this.dgRecipe.TabIndex = 0;
             // 
             // txtRecipeName
             // 
-            this.txtRecipeName.Location = new System.Drawing.Point(59, 181);
+            this.txtRecipeName.Location = new System.Drawing.Point(59, 218);
             this.txtRecipeName.Name = "txtRecipeName";
             this.txtRecipeName.Size = new System.Drawing.Size(100, 20);
             this.txtRecipeName.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(13, 181);
+            this.label1.Location = new System.Drawing.Point(13, 218);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 20);
             this.label1.TabIndex = 2;
@@ -62,7 +63,7 @@
             // 
             // btnAddRecipe
             // 
-            this.btnAddRecipe.Location = new System.Drawing.Point(164, 181);
+            this.btnAddRecipe.Location = new System.Drawing.Point(164, 218);
             this.btnAddRecipe.Name = "btnAddRecipe";
             this.btnAddRecipe.Size = new System.Drawing.Size(75, 20);
             this.btnAddRecipe.TabIndex = 3;
@@ -70,22 +71,34 @@
             this.btnAddRecipe.UseVisualStyleBackColor = true;
             this.btnAddRecipe.Click += new System.EventHandler(this.btnAddRecipe_Click);
             // 
+            // btnSaveRecipe
+            // 
+            this.btnSaveRecipe.Location = new System.Drawing.Point(501, 218);
+            this.btnSaveRecipe.Name = "btnSaveRecipe";
+            this.btnSaveRecipe.Size = new System.Drawing.Size(85, 20);
+            this.btnSaveRecipe.TabIndex = 4;
+            this.btnSaveRecipe.Text = "Save Recipe";
+            this.btnSaveRecipe.UseVisualStyleBackColor = true;
+            this.btnSaveRecipe.Click += new System.EventHandler(this.btnSaveRecipe_Click);
+            // 
             // DeswickMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 224);
+            this.ClientSize = new System.Drawing.Size(598, 248);
+            this.Controls.Add(this.btnSaveRecipe);
             this.Controls.Add(this.btnAddRecipe);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtRecipeName);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgRecipe);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "DeswickMain";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.DeswickMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgRecipe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,10 +106,11 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgRecipe;
         private System.Windows.Forms.TextBox txtRecipeName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAddRecipe;
+        private System.Windows.Forms.Button btnSaveRecipe;
     }
 }
 
