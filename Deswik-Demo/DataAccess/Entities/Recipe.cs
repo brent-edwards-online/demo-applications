@@ -22,6 +22,10 @@ namespace DataAccess.Entities
         [StringLength(100)]
         public string name { get; set; }
 
+        [Required]
+        [StringLength(64)]
+        public string author { get; set; }
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Ingredient> Ingredients { get; set; }
 

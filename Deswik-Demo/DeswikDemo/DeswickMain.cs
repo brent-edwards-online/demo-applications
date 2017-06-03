@@ -15,7 +15,7 @@ namespace DeswikDemo
     public partial class DeswickMain : Form
     {
         RecipeDbContext _context;
-
+        IList<Recipe> _recipies;
         public DeswickMain()
         {
             InitializeComponent();
@@ -48,7 +48,11 @@ namespace DeswikDemo
 
         private void DeswickMain_Load(object sender, EventArgs e)
         {
-            this.dgRecipe.DataSource = this._context.Recipes.ToList();
+            _recipies = this._context.Recipes.ToList();
+
+            this.dgRecipe.DataSource = _recipies;
+
+            this.txtRecipe.DataBindings.Add("text", _recipies, "Name");
         }
 
         private void btnSaveRecipe_Click(object sender, EventArgs e)

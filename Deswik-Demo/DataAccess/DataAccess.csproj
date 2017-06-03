@@ -56,6 +56,11 @@
     <Compile Include="Entities\RecipeDbContext.cs" />
     <Compile Include="Entities\Recipe.cs" />
     <Compile Include="Entities\Unit.cs" />
+    <Compile Include="Migrations\201705312132097_Add_Author.cs" />
+    <Compile Include="Migrations\201705312132097_Add_Author.Designer.cs">
+      <DependentUpon>201705312132097_Add_Author.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\GenericRepository.cs" />
     <Compile Include="Repository\IGenericResposity.cs" />
@@ -68,7 +73,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201705312132097_Add_Author.resx">
+      <DependentUpon>201705312132097_Add_Author.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

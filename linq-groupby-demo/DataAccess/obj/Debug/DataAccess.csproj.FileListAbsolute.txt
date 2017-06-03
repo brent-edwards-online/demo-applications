@@ -1,0 +1,10 @@
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\DataAccess.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\DataAccess.pdb
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\EntityFramework.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\EntityFramework.xml
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\obj\Debug\DataAccess.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\DataAccess\obj\Debug\DataAccess.pdb

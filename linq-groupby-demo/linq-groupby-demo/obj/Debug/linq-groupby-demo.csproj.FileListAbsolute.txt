@@ -1,0 +1,15 @@
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\linq-groupby-demo.exe.config
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\linq-groupby-demo.exe
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\linq-groupby-demo.pdb
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\obj\Debug\linq-groupby-demo.csprojResolveAssemblyReference.cache
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\obj\Debug\linq-groupby-demo.exe
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\obj\Debug\linq-groupby-demo.pdb
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\EntityFramework.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\EntityFramework.SqlServer.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\EntityFramework.xml
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\EntityFramework.SqlServer.xml
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\DataAccess.dll
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\bin\Debug\DataAccess.pdb
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\obj\Debug\linq_groupby_demo.Migrations.Initial_Migration.resources
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\obj\Debug\linq-groupby-demo.csproj.GenerateResource.Cache
+D:\Development\Git-Repository\demo-applications\linq-groupby-demo\linq-groupby-demo\obj\Debug\linq_groupby_demo.Migrations.Add_Mobile_Phone_Number.resources
