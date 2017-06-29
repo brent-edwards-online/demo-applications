@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6E314D59-AF3F-493B-AE45-43C6F1F13757}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA76514D-9A8F-470F-806F-A833D3E4D7D6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Huffman", "src\Huffman\Huffman.xproj", "{6C69070E-1BD8-4662-B223-0EB265229656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C69070E-1BD8-4662-B223-0EB265229656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C69070E-1BD8-4662-B223-0EB265229656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C69070E-1BD8-4662-B223-0EB265229656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C69070E-1BD8-4662-B223-0EB265229656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C69070E-1BD8-4662-B223-0EB265229656} = {6E314D59-AF3F-493B-AE45-43C6F1F13757}
+	EndGlobalSection
+EndGlobal
