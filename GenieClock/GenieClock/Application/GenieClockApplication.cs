@@ -37,7 +37,7 @@ namespace GenieClock.Application
                         }
                         catch
                         {
-                            Console.WriteLine("Invalid Input");
+                            Console.WriteLine("Invalid Input. Please use hh:mm");
                         }
 
                         if(timeValues != null)

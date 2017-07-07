@@ -13,11 +13,11 @@ namespace GenieClock
         static void Main(string[] args)
         {
             ITimeParser parser= new TimeParser();
-            IScreenGenerator generator = new ScreenGenerator();
+            IScreenGenerator screenGenerator = new ScreenGenerator();
             IFaceDigitGenerator faceGenerator = new FaceDigitGenerator();
             IGenieClock clock = new GenieClockApplication();
 
-            clock.RunApplication(parser, generator, faceGenerator);
+            clock.RunApplication(parser, screenGenerator, faceGenerator);
         }
     }
 }
