@@ -19,11 +19,13 @@ namespace GenieClock.Screen
                 }
             }
 
-            foreach(var point in points)
+            if (points != null)
             {
-                result[point.y, point.x] = point.character;
+                foreach (var point in points)
+                {
+                    result[point.y, point.x] = point.character;
+                }
             }
-            
             return result;
         }
     }

@@ -23,10 +23,10 @@ namespace GenieClock.Test
             Assert.AreEqual(165, actual.Length);
 
             var d0 = actual.GetUpperBound(0);
-            Assert.AreEqual(14, d0);
+            Assert.AreEqual(10, d0);
 
             var d1 = actual.GetUpperBound(1);
-            Assert.AreEqual(10, d1);
+            Assert.AreEqual(14, d1);
         }
 
         [TestMethod]
@@ -36,9 +36,9 @@ namespace GenieClock.Test
             ClockFacePoint[] points = new ClockFacePoint[0];
 
             var actual = _generator.Generate(points);
-            for(var idx = 0; idx < 15; idx++)
+            for(var idx = 0; idx < 11; idx++)
             {
-                for (var jdx = 0; jdx < 11; jdx++)
+                for (var jdx = 0; jdx < 15; jdx++)
                 {
                     Assert.AreEqual(' ', actual[idx, jdx]);
                 }
@@ -49,16 +49,10 @@ namespace GenieClock.Test
         [TestCategory("Test Screen Generator")]
         public void CanGenerateABasicScreen()
         {
-            ClockFacePoint[] points = new ClockFacePoint[12];
-            points[0] = new ClockFacePoint();
-            points[0].x = 8;
-            points[0].y = 0;
-            points[0].character = 'o';
-
-            var actual = _generator.Generate(points);
-            for (var idx = 0; idx < 15; idx++)
+            var actual = _generator.Generate(null);
+            for (var idx = 0; idx < 11; idx++)
             {
-                for (var jdx = 0; jdx < 11; jdx++)
+                for (var jdx = 0; jdx < 15; jdx++)
                 {
                     Assert.AreEqual(' ', actual[idx, jdx]);
                 }
