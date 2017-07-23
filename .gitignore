@@ -39,3 +39,11 @@ BinarySearchTreeCpp/BinarySearchTreeCpp/Debug/
 EF-Console-Demo/EF-Console-Demo/bin/
 EF-Console-Demo/EF-Console-Demo/obj/
 EF-Console-Demo/packages/
+EF-Web-Demo/EF-Web-Demo/bin/
+EF-Web-Demo/EFEndToEnd.Data/obj/
+EF-Web-Demo/EFEndToEnd.DataAccess/bin/
+EF-Web-Demo/EFEndToEnd.DataAccess/obj/
+EF-Web-Demo/packages/
+EntityFramework/EntityFramework/bin/
+EntityFramework/EntityFramework/obj/
+EntityFramework/packages/

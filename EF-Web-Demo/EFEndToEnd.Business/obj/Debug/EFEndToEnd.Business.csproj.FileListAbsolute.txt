@@ -1,0 +1,5 @@
+D:\Development\Git-Repository\demo-applications\EF-Web-Demo\EFEndToEnd.Business\bin\Debug\EFEndToEnd.Business.dll
+D:\Development\Git-Repository\demo-applications\EF-Web-Demo\EFEndToEnd.Business\bin\Debug\EFEndToEnd.Business.pdb
+D:\Development\Git-Repository\demo-applications\EF-Web-Demo\EFEndToEnd.Business\obj\Debug\EFEndToEnd.Business.csprojResolveAssemblyReference.cache
+D:\Development\Git-Repository\demo-applications\EF-Web-Demo\EFEndToEnd.Business\obj\Debug\EFEndToEnd.Business.dll
+D:\Development\Git-Repository\demo-applications\EF-Web-Demo\EFEndToEnd.Business\obj\Debug\EFEndToEnd.Business.pdb
